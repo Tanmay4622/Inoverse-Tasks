@@ -7,11 +7,11 @@ int main() {
     do{
         printf("Enter Height: ");
         fgets(temp, 10, stdin);                             // read input as string
-        if(isdigit(temp[0])){                               // check if character is a digit
+        if(isdigit(temp[0]) && temp[1] == '\n'){            // check if character is a digit
             sscanf(temp, "%d", &height);                    // convert string to integer
         }
 
-        if(height > 0){                                     // printing the pyramid if height is positive
+        if(height > 0 && height<8){                         // printing the pyramid if height is positive
             for (int i = 0; i < height; i++) {
                 for (int j = 0; j < height - i - 1; j++) {
                     printf(" ");
