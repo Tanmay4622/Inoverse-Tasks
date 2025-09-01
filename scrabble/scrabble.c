@@ -8,23 +8,23 @@ int main(){
     char player1[30] ,player2[30];
     int player1Score = 0 ,player2Score = 0;
 
-    printf("[Player 1] Enter a word: ");
+    printf("Player 1: ");
     fgets(player1, 30, stdin);
 
-    printf("[Player 2] Enter a word: ");
+    printf("Player 2: ");
     fgets(player2, 30, stdin);
 
     player1Score=score(player1, player1Score, points);
     player2Score=score(player2, player2Score, points);
 
     if(player1Score>player2Score){
-        printf("---------PLAYER 1 WINS!---------");
+        printf("PLAYER 1 WINS!");
     }
     else if(player1Score<player2Score){
-        printf("---------PLAYER 2 WINS!---------");
+        printf("PLAYER 2 WINS!");
     }
     else{
-        printf("--------------TIE!--------------");
+        printf("TIE!");
     }
 
     return 0;
