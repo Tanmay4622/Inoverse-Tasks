@@ -14,15 +14,15 @@ else:
 print("You have", income - (rent + food + travel + misc), "Rs left")
 
 summary= "BUDGET SUMMARY\n\n" \
-f"Monthly Income: {income} Rs\n" \
-f"Rent Expenses: {rent} Rs\n" \
-f"Food Expenses: {food} Rs\n" \
-f"Travel Expenses: {travel} Rs\n" \
+f"Monthly Income:         {income} Rs\n" \
+f"Rent Expenses:          {rent} Rs\n" \
+f"Food Expenses:          {food} Rs\n" \
+f"Travel Expenses:        {travel} Rs\n" \
 f"Miscellaneous Expenses: {misc} Rs\n" \
-f"Total Expenses: {rent + food + travel + misc} Rs\n" \
-f"Remaining Balance: {income - (rent + food + travel + misc)} Rs\n"
+f"Total Expenses:         {rent + food + travel + misc} Rs\n" \
+f"Remaining Balance:      {income - (rent + food + travel + misc)} Rs\n"
 
-with open("Budget_Summary.txt", "w") as file:
+with open("python/Budget_Summary.txt", "w") as file:
     file.write(summary)
 
 print("Budget report created")
