@@ -1,0 +1,9 @@
+BUDGET SUMMARY
+
+Monthly Income:         20000.0 Rs
+Rent Expenses:          8000.0 Rs
+Food Expenses:          2000.0 Rs
+Travel Expenses:        1500.0 Rs
+Miscellaneous Expenses: 3000.0 Rs
+Total Expenses:         14500.0 Rs
+Remaining Balance:      5500.0 Rs
