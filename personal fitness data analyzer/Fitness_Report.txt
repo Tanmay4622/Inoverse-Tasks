@@ -1,0 +1,52 @@
+FITNESS REPORT
+
+daily averages:
+  steps:           10417
+  distance:        7.58 km
+  calories:        498.04 calories
+  time:            55.45 minutes
+  heart rate:      75.22 bpm
+  sleep hour:      7.53 hours
+  weight:          72.8 kg
+  water intake:    2.5 Litres
+  mood score:      7.55
+
+weekly averages:
+  steps:           72921
+  distance:        53.06 km
+  calories:        3486.27 calories
+  time:            388.16 minutes
+  heart rate:      526.51 bpm
+  sleep hour:      52.69 hours
+  weight:          509.6 kg
+  water intake:    17.47 Litres
+  mood score:      52.84
+
+monthly averages:
+  steps:           312520
+  distance:        227.41 km
+  calories:        14941.18 calories
+  time:            1663.53 minutes
+  heart rate:      2256.47 bpm
+  sleep hour:      225.82 hours
+  weight:          2184.0 kg
+  water intake:    74.88 Litres
+  mood score:      226.47
+
+Your best days were:  ['2024-01-02', '2024-01-04', '2024-01-08', '2024-01-12', '2024-01-18', '2024-01-22', '2024-01-28', '2024-02-01', '2024-02-05', '2024-02-09', '2024-02-15', '2024-02-19']
+Your worst days were: ['2024-01-21', '2024-02-18']
+
+Your favouraite activities: 
+              count
+workout_type       
+cardio           13
+strength         13
+rest             11
+yoga              8
+pilates           6
+
+Health Advice:
+ Try to burn more calories daily. 
+ Work on lowering your average heart rate. 
+ Increase your water intake to about 3.5 liters daily. 
+
